@@ -28,21 +28,16 @@
           <legend class="form__title">Receita Médica</legend>
           <div class="form-group">
             <label for="txtNomeRemedio">Nome Remédio</label>
-            <input type="text" id="txtNomeRemedio" class="form-control" required>
+            <input type="text" id="txtNomeRemedio" class="form-control" >
           </div>
             <div class="form-group">
             <label for="txtDosagem">Dosagem</label>
-            <input type="text" id="txtDosagem" class="form-control" required>
+            <input type="text" id="txtDosagem" class="form-control" >
           </div>
           <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" CssClass="btn btn-primary"  />
             <asp:Button ID="btnVoltar" runat="server" Text="Voltar" CssClass="btn btn-danger"  />
           </div>
-        
-   
-       
-      <%--</br></br>
-      <asp:Button ID="btnCadastrarMedico" runat="server" Text="Localize seu médico" CssClass="btn btn-primary"  /> 
-      <asp:Button ID="btnNotificar" runat="server" Text="Alertar o seu Médico" CssClass="btn btn-danger"  /> --%>  
+
     
   <footer class="footer">
     <p class="text-center">

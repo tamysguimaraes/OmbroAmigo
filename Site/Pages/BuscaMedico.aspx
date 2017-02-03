@@ -30,7 +30,7 @@
           <legend class="form__title">Buscar médico</legend>
           <div class="form-group">
             <label for="txtNome">Nome</label>
-            <input type="text" id="txtNome" class="form-control" required>
+            <input type="text" id="txtNome" class="form-control" >
           </div>
           <div class="form-group">
             <label for="selProfissional">Tipo de médico</label>

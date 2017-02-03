@@ -14,7 +14,7 @@
 <script src="Scripts/jquery-1.9.1.min.js"></script>
 <script src="Scripts/bootstrap.min.js"></script>
 <body>
-    
+    <form runat="server">  
         <header class="header">
     <nav class="navbar nav-fixed-top">
       <div class="container">
@@ -29,12 +29,12 @@
       <div class="col-xs-12 col-sm-12 col-md-12">
         <h1>Seja bem-vindo!</h1>
         <div class="col-xs-3 col-sm-3">
-        <a class="btn btn-block btn-social btn-facebook">
-    <span class="fa fa-facebook"></span> Login com Facebook
-  </a>
-          <a class="btn btn-block btn-social btn-linkedin">
-    <span class="fa fa-linkedin"></span> Login com Linkedin
-  </a>
+        <asp:Button ID="facebook" runat="server" class="btn btn-block btn-social btn-facebook" Text="Login com Facebook" OnClick="facebook_Click">
+            </asp:Button>
+     <asp:Button ID="linkedin" runat="server" class="btn btn-block btn-social btn-linkedin" Text="Login com Linkedin" OnClick="linkedin_Click">
+            </asp:Button>
+  
+          
   </div>
         </div>
       </div>
@@ -45,5 +45,6 @@
     </p>
   </footer>
     <script src="Scripts/app.min.js"></script>
+        </form>
 </body>
 </html>

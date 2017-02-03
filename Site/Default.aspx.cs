@@ -13,5 +13,17 @@ namespace Site
         {
 
         }
+
+        
+
+        protected void facebook_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Pages/Perfil.aspx");
+        }
+
+        protected void linkedin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Pages/PerfilMedico.aspx");
+        }
     }
 }

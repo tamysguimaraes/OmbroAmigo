@@ -29,15 +29,15 @@
           <legend class="form__title"></legend>
           <div class="form-group">
             <label for="txtNome">Nome</label>
-            <input type="text" id="txtNome" class="form-control" required>
+            <input type="text" id="txtNome" class="form-control" >
           </div>
             <div class="form-group">
             <label for="txtEmail">Email</label>
-            <input type="text" id="txtEmail" class="form-control" required>
+            <input type="text" id="txtEmail" class="form-control" >
           </div>
           <div class="form-group">
             <label for="txtTelefone">Telefone</label>
-            <input type="text" id="txtTelefone" class="form-control" required>
+            <input type="text" id="txtTelefone" class="form-control" >
           </div>
           <div class="form-group">
               <asp:RadioButton ID="rdbPsicologo" Text="Psicólogo" runat="server" />

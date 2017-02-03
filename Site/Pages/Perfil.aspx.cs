@@ -13,5 +13,15 @@ namespace Site.Pages
         {
 
         }
+
+        protected void btnReceitas_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Pages/Receitas.aspx");
+        }
+
+        protected void btnCadastrarMedico_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Pages/BuscaMedico.aspx");
+        }
     }
 }
